@@ -1,0 +1,555 @@
+/* Padding below the footer and lighter body text */
+@font-face{
+    font-family: "Work Sans";
+    src:url(../font/WorkSans-VariableFont_wght.ttf);
+    font-weight: 1 999;
+}
+@font-face{
+    font-family: "Gloria Hallelujah";
+    src:url(../font/GloriaHallelujah-Regular.ttf);
+    font-weight: 1 999;
+}
+.header{
+    color:#7eccbc;
+    margin-top:50px;
+    font-size: 24px;
+}
+/*Fade in of header of home page*/
+.head{
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;     
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+@keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        } 
+.headerTitle{
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;    
+    height: inherit;
+    color: #7eccbc;
+    margin-top: 50px;
+    font-size: 30px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+body {
+    font-family: "Work Sans";    
+    padding-bottom: 40px;
+    color: #5a5a5a;
+    font-size:13px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    font-style: normal;
+}
+p{
+    margin-top:25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    font-style: normal;
+    color:black;
+}
+h1,b{
+    color:#4F4F4F;
+    font-size: 20px;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-style: normal;
+}
+hr{
+    width:100%;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.container1{
+    width:100%;
+}
+/* Navbar */
+.contact{
+    padding-right:0px;
+}
+.fishlogo{
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    vertical-align: middle;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right:20px;
+}
+h3.logo{
+    font-family: "Gloria Hallelujah";
+    height: 75px;
+    color: #428BCA;
+    font-weight: 500;
+    font-size: 25px;
+    float: left;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.navbar-toggle {
+    height: 75px;
+    position: relative;
+    float: right;
+    padding: 15px;
+    background-color: transparent;
+    border:none;
+    margin:0px;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: transparent;
+}
+i.fas.fa-bars{
+    font-size:20px;
+}
+.navbar.navbar-inverse.navbar-static-top{
+        height:75px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color:#428BCA;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a{
+    font-weight: 450;
+    padding-right:10px;
+    padding-left: 10px;    
+    text-transform: none;
+    color:#4F4F4F;
+    letter-spacing: .2px;
+    text-align: center;
+}
+.navbar{
+    border:transparent;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus{
+    background-color: white;   
+    color:#428BCA; 
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border:transparent;
+    background-color: transparent;
+}
+.navbar-wrapper {
+    box-shadow :  0px 1px 1px rgba(0, 0, 0, 0.3);
+    background-color : white; 
+    font-family: "Work Sans";
+    height:75px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 20;
+    transition: top .8s;
+}
+
+.navbar-wrapper .navbar {
+    background: transparent;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 4px;
+}
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+.container{
+    height:inherit;
+    padding-left:15px;
+    padding-right:15px;
+}
+/* Home Page Carousal */
+
+.carousel {
+    width:inherit;
+    display: table;
+    margin: auto;
+    margin-top:60px;
+    margin-bottom: 50px;
+}
+
+.carousel-caption {
+    height:260px;
+    z-index: 10;
+    margin-bottom: 40px;
+    font-size: 21px;
+    line-height: 1.4;
+}
+
+.carousel .item {
+    height: 800px;
+}
+
+.carousel-inner .item img {
+    position: absolute;
+    min-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control {
+    height: 780px;
+}
+
+
+/* Schedule Images */
+
+.event {
+    display: flex;
+    width: 100%;
+}
+
+.eventinfo {
+    float: left;
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: auto;
+    clear: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.scheduleimg {
+    float: right;
+    height: 300px;
+    width: 400px;
+    height: auto;
+    margin: 3px;
+    padding: 3px;
+}
+
+
+/* Photo Galleries */
+
+.galleria {
+    height: 757px
+}
+@media screen and (min-width: 768px){
+    .carousel-caption {
+        left: 35%;
+        right: 35%;
+    }
+    .carousel-indicators {
+    bottom: 70px;
+    }
+     .carousel-title {
+    color:white;
+    font-size:25px;
+    }
+    .text{
+    font-size:16px;
+    color:white;
+    padding:5px;
+    }
+}
+
+/* For 1024px laptop display */
+
+@media screen and (max-width: 1024px) {
+    .carousel {
+        height: 640px;
+    }
+    .carousel .item {
+        height: 640px;
+    }
+    .carousel-control {
+        height: 640px;
+    }
+}
+
+
+/* For 768px tablet display */
+
+@media screen and (max-width: 768px) {
+    .navbar.navbar-inverse.navbar-static-top{
+        display:flex;
+    }
+    .header-who {
+        padding-top: 25px;
+    }
+    .carousel {
+        height: 465px;
+    }
+    .carousel .item {
+        height: 465px;
+        width: 724px;
+    }
+    .carousel-control {
+        height: 465px;
+        right: 12px;
+    }
+    .carousel-inner .item img {
+        min-width: 0%;
+    }
+    .carousel-caption {
+        font-size: 15px;
+    }
+    .carousel-caption .btn {
+        font-size: 13px;
+    }
+    .galleria {
+        padding-top: 20px;
+    }
+}
+
+
+/* For 426px large mobile phone display */
+
+@media screen and (max-width: 426px) {
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);  
+          }
+    .navbar-wrapper{
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);    
+    }    
+    h3.logo{
+        margin-left:15px;
+    }
+    .fishlogo{
+    display:none;
+    }    
+    .event{
+        display:block;
+    }
+    .navbar.navbar-inverse.navbar-static-top{
+        display:block;
+    }
+    .announcements {
+        width: 400px;
+        height: 250px;
+    }
+    .carousel {
+        display:none;
+        height: 265px;
+    }
+    .carousel .item {
+        height: 305px;
+        width: 400px;
+    }
+    .carousel-control {
+        height: 265px;
+        right: 12px;
+    }
+    .carousel-inner .item img {
+        min-width: 0%;
+    }
+    .carousel-caption {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .carousel-title {
+        font-size: 15px;
+    }
+    .carousel-caption .btn {
+        font-size: 8px;
+    }
+    .other-aacfs {
+        margin-bottom: 0px;
+    }
+    .other-aacf {
+        display: inline-flex;
+        margin-top: 2px;
+    }
+    .eventinfo {
+        width:100%;
+    }
+    .scheduleimg {
+        margin:0px;
+        padding:0px;
+        float: right;
+        width: 100%;
+        height: auto;
+    }
+    .sg-description {
+        font-size: 12px;
+    }
+    .sg-description-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .smallgroups {
+        font-size: 12px;
+        margin-bottom: 80px;
+    }
+    .smallgroup-type {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .church-ride-title {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .church-description {
+        font-size: 15px;
+    }
+    .add-church {
+        margin-bottom: 50px;
+    }
+    .galleria {
+        padding-top: 20px;
+        height: 700px;
+        margin-bottom: 100px;
+    }
+    .contacts h1 {
+        font-size: 20px;
+    }
+    .contacts td {
+        font-size: 10px;
+    }
+    .contacts h4 {
+        font-size: 10px;
+    }
+    .contacts h5 {
+        font-size: 10px;
+    }
+    .contact-description {
+        font-size: 12px;
+    }
+    .sgleaders {
+        margin-bottom: 80px;
+    }
+}
+
+
+/* For 375px medium mobile phone display */
+
+@media screen and (max-width: 375px) {
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);  
+    }
+    .navbar-wrapper{
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);    
+    }    
+    h3.logo{
+        margin-left:15px;
+    }    
+    .fishlogo{
+    display:none;
+    }    
+    .navbar.navbar-inverse.navbar-static-top{
+        display:block;
+    }
+    .header-who {
+        padding-top: 30px;
+    }
+    .carousel {
+        display:none;
+        height: 230px;
+    }
+    .carousel .item {
+        height: 230px;
+        width: 350px;
+    }
+    .carousel-control {
+        height: 230px;
+        right: 12px;
+    }
+    .carousel-caption {
+        font-size: 8px;
+        padding-bottom: 0px;
+        bottom: -5px;
+    }
+    .carousel-indicators {
+        bottom: -30px;
+    }
+    .carousel-title {
+        font-size: 12px;
+    }
+    .carousel-caption .btn {
+        font-size: 6px;
+    }
+    .weekly-meetings {
+        margin-top: 30px;
+    }
+    .sg-description {
+        margin-top: 30px;
+    }
+    .church-ride-title {
+        margin-top: 30px;
+    }
+    .galleria {
+        margin-top: 20px;
+    }
+    .contacts h1 {
+        margin-top: 30px;
+    }
+}
+
+
+/* For 320px small mobile phone display */
+
+@media screen and (max-width: 320px) {
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);  
+    }    
+    .navbar-wrapper{
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);    
+    }   
+    h3.logo{
+        margin-left:15px;
+    }    
+    .fishlogo{
+    display:none;
+    }
+    .navbar.navbar-inverse.navbar-static-top{
+        display:block;
+    }
+    .carousel {
+        display:none;
+        height: 190px;
+    }
+    .carousel .item {
+        height: 190px;
+        width: 290px;
+    }
+    .carousel-control {
+        height: 190px;
+        right: 12px;
+    }
+    .scheduleimg {
+        width: 150px;
+    }
+    .other-aacf {
+        display: inline-flex;
+        margin-top: 2px;
+    }
+    .text-muted {
+        font-size: 12px;
+    }
+    .social-media-icons {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .footer-end {
+        font-size: 13px;
+        display: inline-table;
+    }
+    .contacts h5 {
+        line-height: 1.5em;
+    }
+}
