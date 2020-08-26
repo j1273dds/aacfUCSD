@@ -1,40 +1,48 @@
 /* Padding below the footer and lighter body text */
-@font-face{
+
+@font-face {
     font-family: "Work Sans";
-    src:url(../font/WorkSans-VariableFont_wght.ttf);
+    src: url(../font/WorkSans-VariableFont_wght.ttf);
     font-weight: 1 999;
 }
-@font-face{
+
+@font-face {
     font-family: "Gloria Hallelujah";
-    src:url(../font/GloriaHallelujah-Regular.ttf);
+    src: url(../font/GloriaHallelujah-Regular.ttf);
     font-weight: 1 999;
 }
-.header{
-    color:#7eccbc;
-    margin-top:50px;
+
+.header {
+    color: #7eccbc;
+    margin-top: 50px;
     font-size: 24px;
 }
+
+
 /*Fade in of header of home page*/
-.head{
-    animation: fadeInAnimation ease 3s; 
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards;     
-    width:100%;
-    display:flex;
+
+.head {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 100%;
+    display: flex;
     justify-content: center;
 }
-@keyframes fadeInAnimation { 
-            0% { 
-                opacity: 0; 
-            } 
-            100% { 
-                opacity: 1; 
-            } 
-        } 
-.headerTitle{
-    animation: fadeInAnimation ease 3s; 
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards;    
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.headerTitle {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     height: inherit;
     color: #7eccbc;
     margin-top: 50px;
@@ -43,28 +51,32 @@
     display: flex;
     align-items: center;
 }
+
 body {
-    font-family: "Work Sans";    
+    font-family: "Work Sans";
     padding-bottom: 40px;
     color: #5a5a5a;
-    font-size:13px;
+    font-size: 13px;
     line-height: 1.5em;
     letter-spacing: .02em;
     font-weight: 300;
     font-style: normal;
 }
-p{
-    margin-top:25px;
+
+p {
+    margin-top: 25px;
     margin-bottom: 25px;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: .02em;
     font-weight: 300;
     font-style: normal;
-    color:black;
+    color: black;
 }
-h1,b{
-    color:#4F4F4F;
+
+h1,
+b {
+    color: #4F4F4F;
     font-size: 20px;
     line-height: 1em;
     text-transform: none;
@@ -72,28 +84,35 @@ h1,b{
     font-weight: 500;
     font-style: normal;
 }
-hr{
-    width:100%;
-    margin-top:50px;
+
+hr {
+    width: 100%;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
-.container1{
-    width:100%;
+
+.container1 {
+    width: 100%;
 }
+
+
 /* Navbar */
-.contact{
-    padding-right:0px;
+
+.contact {
+    padding-right: 0px;
 }
-.fishlogo{
+
+.fishlogo {
     margin-top: 12.5px;
     margin-bottom: 12.5px;
     vertical-align: middle;
     float: left;
     width: 50px;
     height: 50px;
-    margin-right:20px;
+    margin-right: 20px;
 }
-h3.logo{
+
+h3.clublogo {
     font-family: "Gloria Hallelujah";
     height: 75px;
     color: #428BCA;
@@ -104,57 +123,71 @@ h3.logo{
     display: flex;
     align-items: center;
 }
+
 .navbar-toggle {
     height: 75px;
     position: relative;
     float: right;
     padding: 15px;
     background-color: transparent;
-    border:none;
-    margin:0px;
+    border: none;
+    margin: 0px;
 }
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
     background-color: transparent;
 }
-i.fas.fa-bars{
-    font-size:20px;
+
+i.fas.fa-bars {
+    font-size: 20px;
 }
-.navbar.navbar-inverse.navbar-static-top{
-        height:75px;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0px;
+
+.navbar.navbar-inverse.navbar-static-top {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
 }
-.navbar-inverse .navbar-nav>li>a:hover{
-    color:#428BCA;
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #428BCA;
     background-color: transparent;
 }
-.navbar-inverse .navbar-nav>li>a{
+
+.navbar-inverse .navbar-nav>li>a {
     font-weight: 450;
-    padding-right:10px;
-    padding-left: 10px;    
+    padding-right: 10px;
+    padding-left: 10px;
     text-transform: none;
-    color:#4F4F4F;
+    color: #4F4F4F;
     letter-spacing: .2px;
     text-align: center;
 }
-.navbar{
-    border:transparent;
+
+.navbar {
+    border: transparent;
 }
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus{
-    background-color: white;   
-    color:#428BCA; 
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: white;
+    color: #428BCA;
 }
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-    border:transparent;
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border: transparent;
     background-color: transparent;
 }
+
 .navbar-wrapper {
-    box-shadow :  0px 1px 1px rgba(0, 0, 0, 0.3);
-    background-color : white; 
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: white;
     font-family: "Work Sans";
-    height:75px;
+    height: 75px;
     position: fixed;
     top: 0px;
     right: 0px;
@@ -169,27 +202,30 @@ i.fas.fa-bars{
     padding-left: 0px;
     border-radius: 4px;
 }
+
 .navbar-wrapper .navbar .container {
     width: auto;
 }
 
-.container{
-    height:inherit;
-    padding-left:15px;
-    padding-right:15px;
+.container {
+    height: inherit;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
+
 /* Home Page Carousal */
 
 .carousel {
-    width:inherit;
+    width: inherit;
     display: table;
     margin: auto;
-    margin-top:60px;
+    margin-top: 60px;
     margin-bottom: 50px;
 }
 
 .carousel-caption {
-    height:260px;
+    height: 260px;
     z-index: 10;
     margin-bottom: 40px;
     font-size: 21px;
@@ -249,24 +285,26 @@ img {
 .galleria {
     height: 757px
 }
-@media screen and (min-width: 768px){
+
+@media screen and (min-width: 768px) {
     .carousel-caption {
         left: 35%;
         right: 35%;
     }
     .carousel-indicators {
-    bottom: 70px;
+        bottom: 70px;
     }
-     .carousel-title {
-    color:white;
-    font-size:25px;
+    .carousel-title {
+        color: white;
+        font-size: 25px;
     }
-    .text{
-    font-size:16px;
-    color:white;
-    padding:5px;
+    .text {
+        font-size: 16px;
+        color: white;
+        padding: 5px;
     }
 }
+
 
 /* For 1024px laptop display */
 
@@ -286,8 +324,8 @@ img {
 /* For 768px tablet display */
 
 @media screen and (max-width: 768px) {
-    .navbar.navbar-inverse.navbar-static-top{
-        display:flex;
+    .navbar.navbar-inverse.navbar-static-top {
+        display: flex;
     }
     .header-who {
         padding-top: 25px;
@@ -321,30 +359,31 @@ img {
 /* For 426px large mobile phone display */
 
 @media screen and (max-width: 426px) {
-    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);  
-          }
-    .navbar-wrapper{
-        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);    
-    }    
-    h3.logo{
-        margin-left:15px;
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     }
-    .fishlogo{
-    display:none;
-    }    
-    .event{
-        display:block;
+    .navbar-wrapper {
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     }
-    .navbar.navbar-inverse.navbar-static-top{
-        display:block;
+    h3.logo {
+        margin-left: 15px;
+    }
+    .fishlogo {
+        display: none;
+    }
+    .event {
+        display: block;
+    }
+    .navbar.navbar-inverse.navbar-static-top {
+        display: block;
     }
     .announcements {
         width: 400px;
         height: 250px;
     }
     .carousel {
-        display:none;
+        display: none;
         height: 265px;
     }
     .carousel .item {
@@ -376,11 +415,11 @@ img {
         margin-top: 2px;
     }
     .eventinfo {
-        width:100%;
+        width: 100%;
     }
     .scheduleimg {
-        margin:0px;
-        padding:0px;
+        margin: 0px;
+        padding: 0px;
         float: right;
         width: 100%;
         height: auto;
@@ -439,26 +478,27 @@ img {
 /* For 375px medium mobile phone display */
 
 @media screen and (max-width: 375px) {
-    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);  
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     }
-    .navbar-wrapper{
-        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);    
-    }    
-    h3.logo{
-        margin-left:15px;
-    }    
-    .fishlogo{
-    display:none;
-    }    
-    .navbar.navbar-inverse.navbar-static-top{
-        display:block;
+    .navbar-wrapper {
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    }
+    h3.logo {
+        margin-left: 15px;
+    }
+    .fishlogo {
+        display: none;
+    }
+    .navbar.navbar-inverse.navbar-static-top {
+        display: block;
     }
     .header-who {
         padding-top: 30px;
     }
     .carousel {
-        display:none;
+        display: none;
         height: 230px;
     }
     .carousel .item {
@@ -504,23 +544,24 @@ img {
 /* For 320px small mobile phone display */
 
 @media screen and (max-width: 320px) {
-    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);  
-    }    
-    .navbar-wrapper{
-        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);    
-    }   
-    h3.logo{
-        margin-left:15px;
-    }    
-    .fishlogo{
-    display:none;
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     }
-    .navbar.navbar-inverse.navbar-static-top{
-        display:block;
+    .navbar-wrapper {
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    }
+    h3.logo {
+        margin-left: 15px;
+    }
+    .fishlogo {
+        display: none;
+    }
+    .navbar.navbar-inverse.navbar-static-top {
+        display: block;
     }
     .carousel {
-        display:none;
+        display: none;
         height: 190px;
     }
     .carousel .item {
